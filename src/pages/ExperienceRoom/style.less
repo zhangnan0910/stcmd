@@ -1,0 +1,76 @@
+.ExperienceRoom-content{
+    padding-bottom: 50px;
+    .ExperienceRoom{
+        display: flex;
+        margin-top:10px;
+        p{
+            margin-left: 10px;
+            font-family: PingFangSC-Regular;
+            font-size: 14px;
+            color: #333333;
+            letter-spacing: 0;
+        }
+        span{
+            flex-shrink: 0;
+        }
+        span:nth-child(1){
+            color: #999;
+            text-align: right;
+            width: 60px;
+            flex-shrink: 0;
+        }
+        input{
+            flex: 1;
+            margin: 0 10px;
+            text-indent: 1em;
+            background: #F3F3F3;
+            border:1px solid #ededed;
+            border-radius: 4px;
+            color: #666;
+            height: 32px;
+            outline: none;
+        }
+        input.bgColor{
+            background: #fafafa;
+        }
+        span:nth-child(3){
+            color: #1093ED;
+            border: 1px solid #EAEAEA;
+            border-radius: 4px;
+            height: 32px;
+            line-height: 32px;
+            padding: 0 15px;
+            cursor: pointer;
+        }
+    }
+    .ExperienceRoom:nth-child(1){
+        span:nth-child(1){
+            position: relative;
+            top:5px;
+        }
+    }
+    .ExperienceRoom:nth-child(2){
+        margin-top:20px;
+    }
+}
+
+.get-into-room{
+   width: 200px;
+   display: block;
+   height: 40px;
+   line-height: 40px;
+   margin: 20px 50px;
+   border:1px solid #ccc;
+   text-align: center;
+   box-shadow: 0 2px 4px 0 rgba(0,0,0,0.10);
+   border-radius: 4px;
+   color: #1093ED;
+   cursor: pointer;
+   .icon-infoclick{
+        background-position: -30px -144px;
+        position: relative;
+        top: 8px;
+        right: 5px;
+        transform:scale(.6,.6);
+   }
+}

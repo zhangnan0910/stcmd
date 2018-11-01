@@ -1,0 +1,13 @@
+// 开始获取数据
+export let GET_COURSE_START = 'GET_COURSE_START'
+
+// 获取数据成功
+export let GET_COURSE_SUCCESS = 'GET_COURSE_SUCCESS'
+
+// 切换日历
+export let GET_CHANGDATE_START = 'GET_CHANGDATE_START'
+
+// 头像
+export let GET_IMGCHANGE_SUCCESS = 'GET_IMGCHANGE_SUCCESS'
+// 获取个人信息
+export let GET_USER_SUCCESS = 'GET_USER_SUCCESS'
